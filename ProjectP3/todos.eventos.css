@@ -66,6 +66,29 @@ nav a {
     text-decoration:none;
 }
 
+.parte-cima-caixas {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 35px;
+  border-radius: 5px;
+  font-size: 15px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration:none;
+}
+
+.parte-baixo-caixas {
+  margin-right: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius:5px;
+  font-size: 15px;
+  text-decoration:none;
+  flex-direction: row;
+}
 
 #caixa_1{
   margin-left: 12%;
@@ -181,7 +204,25 @@ nav a {
     border-radius:5px;
 }
   
-  
+/* barra de pesquisa */
+#barra_pesquisa{
+  background-color:#ffffff;
+  border:solid 1px;
+  border-radius:15px;
+  width:300px;
+  height: 25px;
+  margin-left: 925px;
+  margin-top: 30px;
+}
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-size:18px;
+  border:none;
+  height: 20px;
+  width:260px;
+}
   
   
   
