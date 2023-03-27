@@ -67,6 +67,7 @@ nav a {
 }
 
 .parte-cima-caixas {
+  color: #333;
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 35px;
@@ -90,6 +91,10 @@ nav a {
   flex-direction: row;
 }
 
+.cor{
+  color:white
+}
+
 #caixa_1{
   margin-left: 12%;
   margin-top: 3%;
@@ -97,7 +102,7 @@ nav a {
   width: 230px;
   height: 150px;
   border-radius: 5px;
-  background-color:  #af25af;
+  background-color:  #333;
   display: inline-block;
   border-radius:5px;
 }
@@ -106,7 +111,7 @@ nav a {
   width: 230px;
   height: 150px;
   border-radius: 5px;
-  background-color:  #af25af;
+  background-color:  #333;
   display: inline-block;
   border-radius:5px;
 }
@@ -114,7 +119,7 @@ nav a {
   width: 230px;
   height: 150px;
   border-radius: 5px;
-  background-color:  #af25af;
+  background-color:  #333;
   display: inline-block;
   border-radius:5px;
 }
@@ -126,7 +131,7 @@ nav a {
   width: 230px;
   height: 150px;
   border-radius: 5px;
-  background-color:  #af25af;
+  background-color:  #333;
   display: inline-block;
   border-radius:5px;
 }
@@ -135,7 +140,7 @@ nav a {
   width: 230px;
   height: 150px;
   border-radius: 5px;
-  background-color:  #af25af;
+  background-color:  #333;
   display: inline-block;
   border-radius:5px;
 }
@@ -143,7 +148,7 @@ nav a {
   width: 230px;
   height: 150px;
   border-radius: 5px;
-  background-color:  #af25af;
+  background-color:  #333;
   display: inline-block;
   border-radius:5px;
 }
@@ -154,7 +159,7 @@ nav a {
     width: 230px;
     height: 150px;
     border-radius: 5px;
-    background-color:  #af25af;
+    background-color:  #333;
     display: inline-block;
     border-radius:5px;
 }
@@ -163,7 +168,7 @@ nav a {
     width: 230px;
     height: 150px;
     border-radius: 5px;
-    background-color:  #af25af;
+    background-color:  #333;
     display: inline-block;
     border-radius:5px;
 }
@@ -171,7 +176,7 @@ nav a {
     width: 230px;
     height: 150px;
     border-radius: 5px;
-    background-color:  #af25af;
+    background-color:  #333;
     display: inline-block;
     border-radius:5px;
 }
@@ -182,7 +187,7 @@ nav a {
     width: 230px;
     height: 150px;
     border-radius: 5px;
-    background-color:  #af25af;
+    background-color:  #333;
     display: inline-block;
     border-radius:5px;
 }
@@ -191,7 +196,7 @@ nav a {
     width: 230px;
     height: 150px;
     border-radius: 5px;
-    background-color:  #af25af;
+    background-color:  #333;
     display: inline-block;
     border-radius:5px;
 }
@@ -199,32 +204,50 @@ nav a {
     width: 230px;
     height: 150px;
     border-radius: 5px;
-    background-color:  #af25af;
+    background-color:  #333;
     display: inline-block;
     border-radius:5px;
 }
+/* Busca */
+   .search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width:230px;
+    height: 25px;
+    margin-left: 60%;
+  }
   
-/* barra de pesquisa */
-#barra_pesquisa{
-  background-color:#ffffff;
-  border:solid 1px;
-  border-radius:15px;
-  width:300px;
-  height: 25px;
-  margin-left: 925px;
-  margin-top: 30px;
-}
-#txtBusca{
-  float:left;
-  background-color:transparent;
-  padding-left:5px;
-  font-size:18px;
-  border:none;
-  height: 20px;
-  width:260px;
-}
+  input[type=text] {
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+    width: 60%;
+  }
   
+  button[type=submit] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
   
+  button[type=submit]:hover {
+    background-color: #929e93;
+  }
   
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 98.7%;
+    margin-top: 1%;
+  }
   
 
