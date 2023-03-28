@@ -1,253 +1,36 @@
-body {
-	background-color: #a0acad;
-	margin: 0;
-	padding: 0;
-	font-family: Arial, sans-serif;
+*{
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-	background-color: #333;
-	color: #fff;
-	padding: 20px;
+.container#x{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  background-color: white;
+  width: 500px;
+  height: 20px;
+  margin: 0px 50px;
+  margin-bottom: 100px;
 }
 
-nav ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	font-size: 20px;
-	justify-content: space-around;
+input#a{
+  border-radius: 10px;
+  border-width: 1px;
+  width: 300px;
+  height: 25px;
+  background-image: url(busca.png);
+  background-position: 10px center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  padding-left: 40px;
 }
 
-nav li {
-	margin-right: 20px;
+input#a::placeholder{
+  text-align: center;
 }
 
-nav a {
-	color: #fff;
-	text-decoration: none;
-}
-
-
-
-.caixa-main {
-    width: 15%;
-    margin-top: 1%;
-    margin-left: 12%;
-    border-radius:5px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    flex-direction: column;
-    font-weight: auto;
-
-
-}
-.parte-cima {
-    margin-left: 150px;
-    margin-right: 1000px;
-    border-radius: 5px;
-    color: rgb(0, 0, 0);
-    font-size: 15px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-
-}
-  
-.parte-baixo {
-    background-color: #af25af;
-    color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius:5px;
-    font-size: 18px;
-    text-decoration:none;
-}
-
-.parte-cima-caixas {
-  color: #333;
+div#y{
+  margin-top: 50px;
   margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 35px;
-  border-radius: 5px;
-  font-size: 15px;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-decoration:none;
+  font-size: 20px;
 }
-
-.parte-baixo-caixas {
-  margin-right: 5px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  border-radius:5px;
-  font-size: 15px;
-  text-decoration:none;
-  flex-direction: row;
-}
-
-.cor{
-  color:white
-}
-
-#caixa_1{
-  margin-left: 12%;
-  margin-top: 3%;
-  margin-right: 10%;
-  width: 230px;
-  height: 150px;
-  border-radius: 5px;
-  background-color:  #333;
-  display: inline-block;
-  border-radius:5px;
-}
-#caixa_2{
-  margin-right: 10%;
-  width: 230px;
-  height: 150px;
-  border-radius: 5px;
-  background-color:  #333;
-  display: inline-block;
-  border-radius:5px;
-}
-#caixa_3{
-  width: 230px;
-  height: 150px;
-  border-radius: 5px;
-  background-color:  #333;
-  display: inline-block;
-  border-radius:5px;
-}
-
-#caixa_4{
-  margin-left: 12%;
-  margin-top: 4%;
-  margin-right: 10%;
-  width: 230px;
-  height: 150px;
-  border-radius: 5px;
-  background-color:  #333;
-  display: inline-block;
-  border-radius:5px;
-}
-#caixa_5{
-  margin-right: 10%;
-  width: 230px;
-  height: 150px;
-  border-radius: 5px;
-  background-color:  #333;
-  display: inline-block;
-  border-radius:5px;
-}
-#caixa_6{
-  width: 230px;
-  height: 150px;
-  border-radius: 5px;
-  background-color:  #333;
-  display: inline-block;
-  border-radius:5px;
-}
-#caixa_7{
-    margin-left: 12%;
-    margin-top: 4%;
-    margin-right: 10%;
-    width: 230px;
-    height: 150px;
-    border-radius: 5px;
-    background-color:  #333;
-    display: inline-block;
-    border-radius:5px;
-}
-#caixa_8{
-    margin-right: 10%;
-    width: 230px;
-    height: 150px;
-    border-radius: 5px;
-    background-color:  #333;
-    display: inline-block;
-    border-radius:5px;
-}
-#caixa_9{
-    width: 230px;
-    height: 150px;
-    border-radius: 5px;
-    background-color:  #333;
-    display: inline-block;
-    border-radius:5px;
-}
-#caixa_10{
-    margin-left: 12%;
-    margin-top: 4%;
-    margin-right: 10%;
-    width: 230px;
-    height: 150px;
-    border-radius: 5px;
-    background-color:  #333;
-    display: inline-block;
-    border-radius:5px;
-}
-#caixa_11{
-    margin-right: 10%;
-    width: 230px;
-    height: 150px;
-    border-radius: 5px;
-    background-color:  #333;
-    display: inline-block;
-    border-radius:5px;
-}
-#caixa_12{
-    width: 230px;
-    height: 150px;
-    border-radius: 5px;
-    background-color:  #333;
-    display: inline-block;
-    border-radius:5px;
-}
-/* Busca */
-   .search-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    width:230px;
-    height: 25px;
-    margin-left: 60%;
-  }
-  
-  input[type=text] {
-    padding: 10px;
-    border: none;
-    font-size: 16px;
-    border-radius: 5px 0 0 5px;
-    width: 60%;
-  }
-  
-  button[type=submit] {
-    background-color: #333;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
-  }
-  
-  button[type=submit]:hover {
-    background-color: #929e93;
-  }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: relative;
-    bottom: 0;
-    width: 98.7%;
-    margin-top: 1%;
-  }
-  
-

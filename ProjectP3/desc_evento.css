@@ -1,4 +1,8 @@
-
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
 
 header {
 	background-color: #333;
@@ -25,14 +29,13 @@ nav a{
 }
 
 h1#evento{
-	text-align: 50px;
 	margin: 50px 100px;
 	margin-block-end: 0px;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
 p#desc{
-	margin: 35px 90px;
+	margin: 50px 100px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
 }
@@ -48,13 +51,12 @@ p#desc{
 }
 
 div#mapa{
-	width: 5px;
 	margin: 0 auto;
 }
 
 iframe#mapaufal{
 	display: block;
-	border-color: pink;
+	border-color: transparent;
 	margin: 20px auto;
 	border-radius: 20px;
 	width: 750px;
@@ -65,21 +67,9 @@ nav#adquirir{
 	display: block;
 	background-color: #333;
 	padding: 20px;
-	margin: 15px auto;
+	margin: 20px auto;
 	margin-bottom: 20px;
 	border-radius: 10px;
 	width: 250px;
 	height: auto;
 }
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: absolute;
-    bottom: 0;
-    width: 98.7%;
-    margin-top: 1%;
-  }
-  

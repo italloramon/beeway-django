@@ -3,7 +3,6 @@
 <head>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap" rel="stylesheet">
 	
 	<title>Beeway</title>
 	<meta charset="UTF-8">
@@ -12,37 +11,41 @@
 </head>
 <body>
 	<div>
-
 		<div  class="name_site">
 			<h1>Beeway</h1>
 		</div>
 		<div class="login-form">
-		<form>
-			<h1>Login</h1>
-			<label for="email">Email:</label>
-			<input type="email" id="email" name="email" placeholder="Seu email">
-	
-			<label for="password">Senha:</label>
-			<input type="password" id="password" name="password" placeholder="Sua senha">
-			<input type="submit" value="Entrar">
-	
-			<div class="options">
-				<div class="x">
-					<a href="rSenhar.html">Esqueceu a senha?<br></a>
-					<span>Não tem uma conta? <a href="cadastro.html">Cadastre-se</a></span>
+			<form>
+				<h1 id="titulo">Login</h1>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" placeholder="Digite seu email">
+		
+				<label for="password">Senha:</label>
+				<input type="password" id="password" name="password" placeholder="Digite sua senha">
+				<input id="submit" type="submit" value="Entrar">
+		
+				<div class="options">
+					<div class="x">
+						<a id="esqueceu" href="rSenha.html"><p id="esqueceu">Esqueceu a senha?</p></a>
+						<span>Não tem uma conta? <a id="cadastrar" href="cadastro.html">Cadastre-se</a></span>
+					</div>
 				</div>
 				<fieldset>
 					<legend>Escolha o usuário:</legend>
-					<div class="checkbox">
-							<input type="checkbox" id="scales" name="scales" checked>
-							<label for="scales">Adiminstrador</label>
-					  </div>
+					<div class="checkbox" id="type">
+						<select name="func">
+							<option value="">---- Selecione um tipo de usuário ----</option>
+							<option value="user">Administrador</option>
+							<option value="admin">Usuário</option>
+						</select>
+					</div>
 				</fieldset>
-			</div>
-		</form>
+			</form>
+		</div>
 	</div>
-		<footer>
-			Beeway
-		  </footer>
+
+	<footer>
+		Beeway
+	</footer>
 </body>
 </html>

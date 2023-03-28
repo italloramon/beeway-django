@@ -1,8 +1,11 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
-	background-color: #a0acad;
+	background-color: white;
 	margin: 0;
 	padding: 0;
-	font-family: Arial, sans-serif;
 }
 
 header {
@@ -28,170 +31,74 @@ nav a {
 	color: #fff;
 	text-decoration: none;
 }
-.cor{
-  color:white
+
+h1{
+    margin-top: 3%;
+    margin-left: 2%;
 }
 
-
-
-.caixa-main {
-    width: 15%;
-    margin-top: 1%;
-    margin-left: 12%;
-    border-radius:5px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    flex-direction: column;
-    font-weight: auto;
-
-
-}
-.parte-cima {
-    margin-left: 100px;
-    margin-right: 100px;
-    border-radius: 5px;
-    color: rgb(0, 0, 0);
-    font-size: 15px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  
-}
-  
-.parte-baixo {
-    background-color: #333;
-    color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius:5px;
-    font-size: 18px;
-    text-decoration:none;
+.container#todos{
+	background-color: #575757;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	border-radius: 5px;
+	margin-top: 2%;
+	margin-left: 5%;
+	width: 15%;
+	height: 5%;
 }
 
-.parte-cima-caixas {
-  
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 35px;
-  border-radius: 5px;
-  font-size: 15px;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-decoration:none;
+@media only screen and (max-width: 1000px) {
+	.container#todos {
+	  width: 25%;
+	}
 }
 
-.parte-baixo-caixas {
-  margin-right: 5px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  border-radius:5px;
-  font-size: 15px;
-  text-decoration:none;
-  flex-direction: row;
+a#todos{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 0px auto;
 }
 
-#caixa_1{
-  margin-left: 12%;
-  margin-top: 3%;
-  margin-right: 10%;
-  width: 230px;
-  height: 150px;
-  border-radius: 5px;
-  background-color:  #333;
-  display: inline-block;
-  border-radius:5px;
-}
-#caixa_2{
-  margin-right: 10%;
-  width: 230px;
-  height: 150px;
-  border-radius: 5px;
-  background-color:  #333;
-  display: inline-block;
-  border-radius:5px;
-}
-#caixa_3{
-  width: 230px;
-  height: 150px;
-  border-radius: 5px;
-  background-color:  #333;
-  display: inline-block;
-  border-radius:5px;
+.container#ultimos{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 5%;
+	grid-row-gap: 20%;
+	margin: 5% 5% 0px 5%;
 }
 
-#caixa_4{
-  margin-left: 12%;
-  margin-top: 4%;
-  margin-right: 10%;
-  width: 230px;
-  height: 150px;
-  border-radius: 5px;
-  background-color:  #333;
-  display: inline-block;
-  border-radius:5px;
-}
-#caixa_5{
-  margin-right: 10%;
-  width: 230px;
-  height: 150px;
-  border-radius: 5px;
-  background-color:  #333;
-  display: inline-block;
-  border-radius:5px;
-}
-#caixa_6{
-  width: 230px;
-  height: 150px;
-  border-radius: 5px;
-  background-color:  #333;
-  display: inline-block;
-  border-radius:5px;
+.evento{
+	background-color: #575757;
+	border-radius: 15px;
+	width: 300px;
+	height: 150px;
+	color: white;
+	display: block;
 }
 
-/* barra de pesquisa */
-
-
-.search-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  width:230px;
-  height: 25px;
-  margin-left: 60%;
+@media only screen and (max-width: 1000px) {
+	.evento{
+	  width: 100%;
+	}
 }
 
-input[type=text] {
-  padding: 10px;
-  border: none;
-  font-size: 16px;
-  border-radius: 5px 0 0 5px;
-  width: 60%;
+h1#name{
+	text-align: center;
 }
 
-button[type=submit] {
-  background-color: #333;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
+.container#info{
+	display: flex;
+	justify-content: space-between;
 }
 
-button[type=submit]:hover {
-  background-color: #ccc;
+p#local{
+	margin-left: 10%;
 }
 
-/* Rodapé */
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-  position: absolute;
-  bottom: 0;
-  width: 98.7%;
+p#data{
+	margin-right: 10%;
 }

@@ -1,42 +1,43 @@
-body {
-	background-color: #a0acad;
-	font-family: Arial, sans-serif;
+*{
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+body{
+    background-color: #a0acad;
+}
+
 .name_site{
 	margin-top: 2%;
 	text-align: center;
 	border-radius: 5px;
 	font-size: 30px;
-	font-family: 'League Spartan', sans-serif;
 }
-.login-form {
-	background-color: #fff;
-	border-radius: 5px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-	margin: 13px auto;
+
+.login-form{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 13px auto;
 	max-width: 400px;
 	padding: 20px;
 	width: 100%;
 	flex-direction: column;
 	display: flex;
-
 }
 
-
-.login-form h1 {
-	font-size: 24px;
+h1#titulo{
+    font-size: 24px;
 	margin-bottom: 20px;
 	text-align: center;
 }
 
-.login-form label {
-	display: block;
-	margin-bottom: 10px;
+label{
+    display: block;
+    margin-bottom: 10px;
 }
 
-.login-form input[type="email"],
-.login-form input[type="password"] {
-	border-radius: 5px;
+input#email, input#password{
+    border-radius: 5px;
 	border: 1px solid #ccc;
 	box-sizing: border-box;
 	font-size: 16px;
@@ -45,8 +46,8 @@ body {
 	width: 100%;
 }
 
-.login-form input[type="submit"] {
-	background-color: #333;
+input#submit{
+    background-color: #333;
 	border: none;
 	border-radius: 5px;
 	color: #fff;
@@ -56,65 +57,38 @@ body {
 	width: 100%;
 }
 
-.login-form input[type="submit"]:hover {
-	background-color: #333;
-}
-
-.login-form .options {
-	display: flex;
+.options{
+    display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
-	margin-top: 20px;
-    display: block;
+	margin-top: 10px;
+    justify-content: center;
 }
 
-.login-form .options a {
-	color: #4285f4;
-	text-decoration: none;
+a#esqueceu{
+    color: #4285f4;
 }
 
-.login-form .options a:hover {
-	text-decoration: underline;
+a#cadastrar{
+    color: #4285f4;
 }
 
+fieldset{
+    margin-top: 20px;
+}
 
-.checkbox{
-	display: flex;
+.checkbox#type{
+    display: flex;
 	flex-direction: column nowrap;
-	margin:0 20px 0 0;
+	margin: 0px 20px 0 0;
 	align-items: center;
 }
-.x{
-	font-family: Arial, sans-serif;
-	margin: 4px;
-	padding: 15px;
-	display: flex;
-	flex-direction: column nowrap;
-}
 
-/* footer {
-    position: absolute;
-    bottom: 0;
-	background-color: #333;
-    width: 99%;
-    height: 60px;    
-}
-.nameFooter {
-	margin: auto;
-	color: #FFF;
-	text-align: center;
-} */
-
-footer {
-	background-color: #333;
+footer{
+    background-color: #333;
 	color: #fff;
 	text-align: center;
 	padding: 10px;
 	position: absolute;
 	bottom: 0;
 	width: 98%;
-  }
-  .checkbox label {
-	display: flex;
-	align-items: center;
-  }
+}

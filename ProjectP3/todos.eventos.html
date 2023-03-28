@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Todos os eventos</title>
+	<title>Home</title>
     <link rel="stylesheet" href="todos.eventos.css">
+	<link rel="stylesheet" href="home.css">
 </head>
 <body>
 	<header>
@@ -20,103 +21,70 @@
 		</nav>
 	<!-- </div> -->
 	</header>
-	<main>
-		<div class="search-container">
-			<form action="#">
-			  <input type="text" placeholder="Buscar eventos..." name="search">
-			  <button type="submit">OK</button>
-			</form>
-		  </div>
 
-		<div id="caixa_1">
-			<div class="parte-cima-caixas"><a href="desc_evento.html" style="color:white; text-decoration: none;";"><h2>Evento 1</h2></a></div>
-			<div class="parte-baixo-caixas">
-				<div class="cor">Data</div>
-				<div class="cor">Local</div>
-			</div>
-		</div>
-		<div id="caixa_2"> 
-			<div class="parte-cima-caixas"><a href="desc_evento.html" style="color:white; text-decoration: none;"><h2>Evento 2</h2></a></div>
-			<div class="parte-baixo-caixas">
-				<div class="cor">Data</div>
-				<div class="cor">Local</div>
-			</div>
-		</div>
-		<div id="caixa_3">
-			<div class="parte-cima-caixas"><a href="desc_evento.html" style="color:white; text-decoration: none;";"><h2>Evento 3</h2></a></div>
-			<div class="parte-baixo-caixas">
-				<div class="cor">Data</div>
-				<div class="cor">Local</div>
-			</div>
-		</div>
-		<div id="caixa_4">
-			<div class="parte-cima-caixas"><a href="desc_evento.html" style="color:white; text-decoration: none;""><h2>Evento 4</h2></a></div>
-			<div class="parte-baixo-caixas">
-				<div class="cor">Data</div>
-				<div class="cor">Local</div>
-			</div>
-		</div>
-		<div id="caixa_5">
-			<div class="parte-cima-caixas"><a href="desc_evento.html" style="color:white; text-decoration: none;""><h2>Evento 5</h2></a></div>
-			<div class="parte-baixo-caixas">
-				<div class="cor">Data</div>
-				<div class="cor">Local</div>
-			</div>
-		</div>
-		<div id="caixa_6">
-			<div class="parte-cima-caixas"><a href="desc_evento.html" style="color:white; text-decoration: none;""><h2>Evento 6</h2></a></div>
-			<div class="parte-baixo-caixas">
-				<div class="cor">Data</div>
-				<div class="cor">Local</div>
-			</div>
-		</div>
-		<div id="caixa_7">
-			<div class="parte-cima-caixas"><a href="desc_evento.html" style="color:white; text-decoration: none;""><h2>Evento 7</h2></a></div>
-			<div class="parte-baixo-caixas">
-				<div class="cor">Data</div>
-				<div class="cor">Local</div>
-			</div>
-		</div>
-		<div id="caixa_8">
-			<div class="parte-cima-caixas"><a href="desc_evento.html" style="color:white; text-decoration: none;""><h2>Evento 8</h2></a></div>
-			<div class="parte-baixo-caixas">
-				<div class="cor">Data</div>
-				<div class="cor">Local</div>
-			</div>
-		</div>
-		<div id="caixa_9">
-			<div class="parte-cima-caixas"><a href="desc_evento.html" style="color:white; text-decoration: none;""><h2>Evento 9</h2></a></div>
-			<div class="parte-baixo-caixas">
-				<div class="cor">Data</div>
-				<div class="cor">Local</div>
-			</div>
-		</div>
-		<div id="caixa_10">
-			<div class="parte-cima-caixas"><a href="desc_evento.html" style="color:white; text-decoration: none;""><h2>Evento 10</h2></a></div>
-			<div class="parte-baixo-caixas">
-				<div class="cor">Data</div>
-				<div class="cor">Local</div>
-			</div>
-		</div>
-		<div id="caixa_11">
-			<div class="parte-cima-caixas"><a href="desc_evento.html" style="color:white; text-decoration: none;""><h2>Evento 11</h2></a></div>
-			<div class="parte-baixo-caixas">
-				<div class="cor">Data</div>
-				<div class="cor">Local</div>
-			</div>
-		</div>
-		<div id="caixa_12">
-			<div class="parte-cima-caixas"><a href="desc_evento.html" style="color:white; text-decoration: none;""><h2>Evento 12</h2></a></div>
-			<div class="parte-baixo-caixas">
-				<div class="cor">Data</div>
-				<div class="cor">Local</div>
-			</div>
-		</div>
+	<h1>Todos os eventos</h1>
+	<div id="y"><p id="search">Pesquisar eventos no site</p></div>
+	<div class="container" id="x">
+		<input type="text" id="a" placeholder="Pesquisar ">
+	</div>
 
-	</main>
+	<div id="ultimos" class="container">
+		<div id="evento1" class="evento">
+			<h1 id="name">Evento 001</h1>
+			<div class="container" id="info">
+				<p id="local">Local</p>
+				<p id="data">Data</p>
+			</div>
+		</div>
+		<div id="evento2" class="evento">
+			<h1 id="name">Evento 002</h1>
+			<div class="container" id="info">
+				<p id="local">Local</p>
+				<p id="data">Data</p>
+			</div>
+		</div>
+		<div id="evento3" class="evento">
+			<h1 id="name">Evento 003</h1>
+			<div class="container" id="info">
+				<p id="local">Local</p>
+				<p id="data">Data</p>
+			</div>
+		</div>
+		<div id="evento4" class="evento">
+			<h1 id="name">Evento 004</h1>
+			<div class="container" id="info">
+				<p id="local">Local</p>
+				<p id="data">Data</p>
+			</div>
+		</div>
+		<div id="evento5" class="evento">
+			<h1 id="name">Evento 005</h1>
+			<div class="container" id="info">
+				<p id="local">Local</p>
+				<p id="data">Data</p>
+			</div>
+		</div>
+		<div id="evento6" class="evento">
+			<h1 id="name">Evento 006</h1>
+			<div class="container" id="info">
+				<p id="local">Local</p>
+				<p id="data">Data</p>
+			</div>
+		</div>
+	</div>
 
-	<footer>
-		Beeway
-  </footer>
+	<script>
+		const searchBox = document.getElementById('a');
+		searchBox.addEventListener('keydown', function(event){
+			if(event.key === 'Enter'){
+				search();
+			}
+		});
+
+		function search(){
+			searchBox.value = '';
+			alert('enter');
+		}
+	</script>
 </body>
 </html>
